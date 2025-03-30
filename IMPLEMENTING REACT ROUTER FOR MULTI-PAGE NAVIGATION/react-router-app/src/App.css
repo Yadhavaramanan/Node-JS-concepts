@@ -1,0 +1,36 @@
+/* src/App.css */
+body{
+  background-color: hsl(211, 63%, 68%);
+}
+nav {
+  background-color: #171c22;
+  padding: 10px;
+  }
+  nav ul {
+  list-style-type: none;
+  padding: 0;
+  }
+  nav ul li {
+  display: inline;
+  margin-right: 10px;
+  }
+  nav ul li a {
+  text-decoration: none;
+  color: #007bff;
+  }
+  nav ul li a:hover {
+  text-decoration: underline;
+  }
+  html, body {
+    height: 100%;  /* Ensure the body takes the full height of the viewport */
+    margin: 0;     /* Remove default margins */
+    text-align: center;
+  }
+  
+.content {
+    display: flex;
+    justify-content: center;   /* Centers content horizontally */
+    align-items: center;       /* Centers content vertically */
+    height: 100%;              /* Take up the full height of the page */
+    text-align: center;        /* Centers text inside the content */
+  }

@@ -1,0 +1,23 @@
+.lifecycle-logger {
+  border: 2px solid #c9f321;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: hsl(67, 47%, 86%);
+  }
+  .lifecycle-logger h2 {
+  color: hsl(91, 56%, 63%);
+  margin-bottom: 10px;
+  }
+  .lifecycle-logger button {
+  background-color: #bde078;
+  color: #150d0d;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  .lifecycle-logger button:hover {
+  background-color: hsl(74, 62%, 70%);
+  }
